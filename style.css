@@ -114,3 +114,42 @@ body {
     position: relative;
     z-index: 1;
 }
+
+/* About Section */
+#about {
+    background-color: white;
+    padding: 60px 0;
+}
+
+#about .about-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+#about .about-content .image {
+    flex: 1;
+}
+
+#about .about-content .info {
+    flex: 2;
+}
+
+#about .info h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#about .info h4 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#about .skills .skill {
+    margin-bottom: 20px;
+}
+
+#about .progress-bar {
+    height: 8px;
+    background-color: #007bff;
+}
